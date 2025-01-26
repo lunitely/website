@@ -13,4 +13,8 @@ app.get('/font', (req, res) => {
     res.sendFile(__dirname + '/views/font.ttf')
 })
 
+app.get('/logo', (req, res) => {
+    res.sendFile(__dirname + '/views/logo.png')
+})
+
 app.listen(8106)
