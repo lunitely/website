@@ -25,4 +25,4 @@ app.get('/cdn', (req, res) => {
     res.sendFile(__dirname + '/views/cdn.js')
 })
 
-app.listen(8106)
+app.listen(8102)
