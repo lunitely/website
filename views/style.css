@@ -64,13 +64,12 @@ body {
 .logo {
     width: 300px;
     height: auto;
-    top: 34%;
+    top: 50%;
     right: 0;
     transform: translateY(-50%);
     margin-top: 1px;
     margin-right: 20px;
     position: fixed;
-    animation: spin 1.5s infinite linear;
 }
 
 footer {
@@ -141,10 +140,5 @@ footer {
 
 .github {
     margin-left: 100px
-}
-
-@keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
 }
 
