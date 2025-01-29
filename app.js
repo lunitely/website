@@ -21,6 +21,10 @@ app.get('/logo', (req, res) => {
     res.sendFile(__dirname + '/views/logo.png')
 })
 
+app.get('/noise', (req, res) => {
+    res.sendFile(__dirname + '/views/noise.png')
+})
+
 app.get('/cdn', (req, res) => {
     res.sendFile(__dirname + '/views/cdn.js')
 })

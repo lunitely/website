@@ -10,7 +10,7 @@ fieldForce = 80;
 noiseSpeed = 0.15;
 sORp = true;
 trailLength = 0.012;
-hueBase = 245;
+hueBase = 1000;
 hueRange = 1;
 maxSpeed = 0.15;
 enableGUI = false;
@@ -167,7 +167,7 @@ function draw() {
 }
 
 function drawBackground() {
-  ctx.fillStyle = "rgba(30, 32, 48,"+ui.trailLength+")";
+  ctx.fillStyle = "rgba(00,00,77,"+ui.trailLength+")";
   ctx.fillRect(0, 0, w, h);
 }
 
